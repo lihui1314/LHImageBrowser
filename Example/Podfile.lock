@@ -1,0 +1,16 @@
+PODS:
+  - LHImageBrowser (0.1.0)
+
+DEPENDENCIES:
+  - LHImageBrowser (from `../`)
+
+EXTERNAL SOURCES:
+  LHImageBrowser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LHImageBrowser: 4e5dd439187afd27992f5863e26ba1c7945394fa
+
+PODFILE CHECKSUM: 323960997b722613e4fe411fcae9d13dfcf1fb12
+
+COCOAPODS: 1.8.4

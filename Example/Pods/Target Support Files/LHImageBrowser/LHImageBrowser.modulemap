@@ -1,0 +1,6 @@
+framework module LHImageBrowser {
+  umbrella header "LHImageBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
