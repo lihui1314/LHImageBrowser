@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  图片浏览器 类似朋友圈
+  LHImageBrowser 图片浏览器 类似朋友圈
                        DESC
 
   s.homepage         = 'https://github.com/lihui1314/LHImageBrowser.git'
