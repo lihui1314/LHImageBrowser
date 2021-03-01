@@ -1,5 +1,5 @@
 PODS:
-  - LHImageBrowser (0.1.0)
+  - LHImageBrowser (1.0.0)
 
 DEPENDENCIES:
   - LHImageBrowser (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LHImageBrowser: 4e5dd439187afd27992f5863e26ba1c7945394fa
+  LHImageBrowser: 3bf17dea2f2f90c765322a2b6b14868367985aed
 
 PODFILE CHECKSUM: 323960997b722613e4fe411fcae9d13dfcf1fb12
 

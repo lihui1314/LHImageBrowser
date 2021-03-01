@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "LHBrowseImageManager.h"
+#import "LHBrowseImageView.h"
+#import "LHImageModel.h"
 
 FOUNDATION_EXPORT double LHImageBrowserVersionNumber;
 FOUNDATION_EXPORT const unsigned char LHImageBrowserVersionString[];

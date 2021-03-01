@@ -7,23 +7,40 @@
 //
 
 #import "LHViewController.h"
+#import "LHTestViewController.h"
 
 @interface LHViewController ()
-
+@property (nonatomic, strong) UIButton *starButon;
 @end
 
 @implementation LHViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self.view addSubview:self.starButon];
+    self.starButon.frame = CGRectMake(self.view.frame.size.width/2 - 40, 200, 80, 40);
+
+    // Do any additional setup after loading the view.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)starButonAction {
+    LHTestViewController *vc = [[LHTestViewController alloc] init];
+    vc.modalPresentationStyle = UIModalPresentationFullScreen;
+    vc.edgesForExtendedLayout = YES;
+    [self presentViewController:vc animated:YES completion:nil];
 }
+
+- (UIButton *)starButon {
+    if (_starButon == nil) {
+        _starButon = [UIButton buttonWithType:(UIButtonTypeSystem)];
+        [_starButon setTitle:@"测试" forState:(UIControlStateNormal)];
+        [_starButon addTarget:self action:@selector(starButonAction) forControlEvents:(UIControlEventTouchUpInside)];
+        [_starButon.titleLabel setFont:[UIFont systemFontOfSize:18 weight:(UIFontWeightMedium)]];
+    }
+    return _starButon;
+}
+
 
 @end

@@ -22,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9C528B5E25ED45CB001DF231 /* LHTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C528B5D25ED45CB001DF231 /* LHTestViewController.m */; };
+		9C528B6125ED4726001DF231 /* t.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9C528B5F25ED4726001DF231 /* t.jpg */; };
+		9C528B6225ED4726001DF231 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9C528B6025ED4726001DF231 /* timg.jpeg */; };
 		C170D8EDB555BDA7D964977D /* Pods_LHImageBrowser_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81F2670050EFA3EC4466A8F /* Pods_LHImageBrowser_Tests.framework */; };
 		E16F9FA1AD523D36F799A07B /* Pods_LHImageBrowser_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B982D07245FE3ACC20FF1DD7 /* Pods_LHImageBrowser_Example.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +65,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BF3866F1792837F6548135A /* Pods-LHImageBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LHImageBrowser_Example.release.xcconfig"; path = "Target Support Files/Pods-LHImageBrowser_Example/Pods-LHImageBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9C528B5C25ED45CB001DF231 /* LHTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHTestViewController.h; sourceTree = "<group>"; };
+		9C528B5D25ED45CB001DF231 /* LHTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LHTestViewController.m; sourceTree = "<group>"; };
+		9C528B5F25ED4726001DF231 /* t.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = t.jpg; sourceTree = "<group>"; };
+		9C528B6025ED4726001DF231 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		A45D24E08EF672811B77AE09 /* LHImageBrowser.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LHImageBrowser.podspec; path = ../LHImageBrowser.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B81F2670050EFA3EC4466A8F /* Pods_LHImageBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHImageBrowser_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B982D07245FE3ACC20FF1DD7 /* Pods_LHImageBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LHImageBrowser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +144,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LHViewController.h */,
 				6003F5A6195388D20070C39A /* LHViewController.m */,
+				9C528B5C25ED45CB001DF231 /* LHTestViewController.h */,
+				9C528B5D25ED45CB001DF231 /* LHTestViewController.m */,
+				9C528B5F25ED4726001DF231 /* t.jpg */,
+				9C528B6025ED4726001DF231 /* timg.jpeg */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -277,7 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C528B6125ED4726001DF231 /* t.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				9C528B6225ED4726001DF231 /* timg.jpeg in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -364,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C528B5E25ED45CB001DF231 /* LHTestViewController.m in Sources */,
 				6003F59E195388D20070C39A /* LHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LHViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

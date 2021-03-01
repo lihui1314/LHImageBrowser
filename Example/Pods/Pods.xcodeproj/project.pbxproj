@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AC4C1CC38EB9495BA51614BA60FDC5 /* LHImageBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3181E8980AD538D51089FFA715F371E /* LHImageBrowser-dummy.m */; };
-		13F7BE5F0A22268A55367A59CD9CFC66 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 73CD28C9A66676E52212237DB9BA35B4 /* ReplaceMe.m */; };
-		525D06622D8179999359355511324F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		031B94B5495ABA0AEF6F94F08F3409C9 /* LHImageBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6981D1DB561010024C8E5E9B98480D1 /* LHImageBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		094368CFA03FD5E3814BB178516067B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		19934CF99C86ABE83979360AA1A2DE5F /* LHImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86789C5359B474611335CE85E0026D74 /* LHImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46132EBE55034F1B841F125E1D8F489F /* LHBrowseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBFA4974CB7BEDEE6AEDBECAEF1F013F /* LHBrowseImageView.m */; };
 		69C4D2F2A2F6D393CA2C9C6D42683DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		70C39033B3DC49245486BDE43E4A0B36 /* LHBrowseImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DEBBCD92D44967E92F9303465ED3692 /* LHBrowseImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		955A1E02E83F434BEA1B161C1D0526F0 /* Pods-LHImageBrowser_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE5D3A9010A81EFE14AE4DFB611C98E /* Pods-LHImageBrowser_Tests-dummy.m */; };
 		95A754A32A9C537850D5ECC3B4CF06F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		B58216094A07459143CAAB92CB5C1D98 /* Pods-LHImageBrowser_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CA561EA9B4A2A24F1881A099B94EE9 /* Pods-LHImageBrowser_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C3FE70BC5FFF7623435E6C2B436F1F72 /* LHImageBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5CA077FEEC553CBC045A2F2D93C7EFF /* LHImageBrowser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB3D26A44E829ECE817DA08323291F28 /* LHImageBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F712EE4E4B9F03D287000241492DF77E /* LHImageBrowser-dummy.m */; };
+		CE394D3AAE3FA77A93D561FCC50FF1E7 /* LHBrowseImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ED32A7675884907BD83E6F8E740228 /* LHBrowseImageManager.m */; };
+		CF3FD0694150BE6A25C1EA2E944F964A /* LHImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F0649ACD7C0E46CAAE406BB66D2CD2 /* LHImageModel.m */; };
 		DEE0F3EC7D98F861FFAC79962AF436D4 /* Pods-LHImageBrowser_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6B0F7A63B315EEB05312164FC1C13CD /* Pods-LHImageBrowser_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA168310999A29D0535F8B5D13EFB51 /* LHBrowseImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEF5D4E3E5982441FD66600611818C4 /* LHBrowseImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5E916DC161A262D828463CF7E95BD25 /* Pods-LHImageBrowser_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2729343CC94EF736F961EAE44C93CBC /* Pods-LHImageBrowser_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -37,38 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06591B413542FF1E1692B1C13BC627BE /* LHImageBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LHImageBrowser-Info.plist"; sourceTree = "<group>"; };
+		0DEBBCD92D44967E92F9303465ED3692 /* LHBrowseImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LHBrowseImageManager.h; path = LHImageBrowser/Classes/LHBrowseImageManager.h; sourceTree = "<group>"; };
 		1190EBF7948DC78A94C0462478F72E1A /* Pods-LHImageBrowser_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHImageBrowser_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13C93E7C443606C1C1273EED9A4FC26C /* Pods-LHImageBrowser_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHImageBrowser_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		141FC1AB7442290E70A537B737AA2B0C /* LHImageBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LHImageBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		188CE172AD2276652C96C05652CBBDF5 /* Pods-LHImageBrowser_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHImageBrowser_Example.modulemap"; sourceTree = "<group>"; };
-		2C417099715CC2D923BAC583C3B8FF30 /* LHImageBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHImageBrowser-prefix.pch"; sourceTree = "<group>"; };
+		31F0649ACD7C0E46CAAE406BB66D2CD2 /* LHImageModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LHImageModel.m; path = LHImageBrowser/Classes/LHImageModel.m; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		446DDE570C09253D6228470516725786 /* LHImageBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHImageBrowser-prefix.pch"; sourceTree = "<group>"; };
 		499D3CA02DF0616EEE79C73C3B6A0447 /* Pods-LHImageBrowser_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHImageBrowser_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52337CAF9DB9B995C032B85690B2CC69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		583364857302B660FC80C13D4A1F106F /* Pods-LHImageBrowser_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHImageBrowser_Example-Info.plist"; sourceTree = "<group>"; };
 		6495F08509B15EB22215CA450DBCC0EF /* Pods-LHImageBrowser_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHImageBrowser_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		69765CFF2E0A3564DC83B375FC2823E5 /* Pods_LHImageBrowser_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LHImageBrowser_Tests.framework; path = "Pods-LHImageBrowser_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		73CD28C9A66676E52212237DB9BA35B4 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = LHImageBrowser/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		802EF342D54FE97088D10F4C9091349B /* Pods-LHImageBrowser_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LHImageBrowser_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		84D9B37FA4B3A4C31CEE41431F4C8572 /* Pods-LHImageBrowser_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LHImageBrowser_Example-frameworks.sh"; sourceTree = "<group>"; };
+		86789C5359B474611335CE85E0026D74 /* LHImageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LHImageModel.h; path = LHImageBrowser/Classes/LHImageModel.h; sourceTree = "<group>"; };
 		8DE5D3A9010A81EFE14AE4DFB611C98E /* Pods-LHImageBrowser_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHImageBrowser_Tests-dummy.m"; sourceTree = "<group>"; };
 		90CA561EA9B4A2A24F1881A099B94EE9 /* Pods-LHImageBrowser_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHImageBrowser_Tests-umbrella.h"; sourceTree = "<group>"; };
 		96DBE562CC30D4D53C832F457A06ADFF /* Pods-LHImageBrowser_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHImageBrowser_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A8DE3ADD01937C1DF14585DDB78111DD /* Pods-LHImageBrowser_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LHImageBrowser_Tests-Info.plist"; sourceTree = "<group>"; };
-		ABA1B8BF36936D8E93F0A5DE2AE51FD9 /* LHImageBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHImageBrowser.xcconfig; sourceTree = "<group>"; };
 		B38FAF605D13282C3E3F22A8B06647F4 /* Pods-LHImageBrowser_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHImageBrowser_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B5ED32A7675884907BD83E6F8E740228 /* LHBrowseImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LHBrowseImageManager.m; path = LHImageBrowser/Classes/LHBrowseImageManager.m; sourceTree = "<group>"; };
+		B6981D1DB561010024C8E5E9B98480D1 /* LHImageBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHImageBrowser-umbrella.h"; sourceTree = "<group>"; };
 		C3BF2C5A15EAB2F52C85701A6B0BABFF /* Pods-LHImageBrowser_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LHImageBrowser_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C5CA077FEEC553CBC045A2F2D93C7EFF /* LHImageBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LHImageBrowser-umbrella.h"; sourceTree = "<group>"; };
+		C404C531ECE3CD12179E1BE34B5E7E8E /* LHImageBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LHImageBrowser.modulemap; sourceTree = "<group>"; };
 		C6B0F7A63B315EEB05312164FC1C13CD /* Pods-LHImageBrowser_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LHImageBrowser_Example-umbrella.h"; sourceTree = "<group>"; };
 		CD84299361F7F05BC6DC17D3AD364976 /* Pods_LHImageBrowser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LHImageBrowser_Example.framework; path = "Pods-LHImageBrowser_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECD3A4E98C935526386F1C73B0A940B /* Pods-LHImageBrowser_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LHImageBrowser_Tests.modulemap"; sourceTree = "<group>"; };
-		D3181E8980AD538D51089FFA715F371E /* LHImageBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHImageBrowser-dummy.m"; sourceTree = "<group>"; };
-		D3BAED28ED07CEEE9FA23620E925FC88 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D82AA67C518C2129A36B314866C4FE20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DABDAEDBD49786F7DD950C9CB48602C4 /* LHImageBrowser.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LHImageBrowser.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2729343CC94EF736F961EAE44C93CBC /* Pods-LHImageBrowser_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LHImageBrowser_Example-dummy.m"; sourceTree = "<group>"; };
 		F3C073C9EB13332A4A5C50DA7A712D11 /* LHImageBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LHImageBrowser.framework; path = LHImageBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F82B74E9017FEAB2DA055980AEBFCFF5 /* LHImageBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LHImageBrowser.modulemap; sourceTree = "<group>"; };
+		F712EE4E4B9F03D287000241492DF77E /* LHImageBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LHImageBrowser-dummy.m"; sourceTree = "<group>"; };
+		FAEF5D4E3E5982441FD66600611818C4 /* LHBrowseImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LHBrowseImageView.h; path = LHImageBrowser/Classes/LHBrowseImageView.h; sourceTree = "<group>"; };
+		FAFBE49C7B193CDA8650D3B0B25D5C7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FB98EBC36C9B7A9139FCDDA778F7D106 /* LHImageBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LHImageBrowser.xcconfig; sourceTree = "<group>"; };
+		FBFA4974CB7BEDEE6AEDBECAEF1F013F /* LHBrowseImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LHBrowseImageView.m; path = LHImageBrowser/Classes/LHBrowseImageView.m; sourceTree = "<group>"; };
+		FD9EA2393B5BF673E35C05BCBA699130 /* LHImageBrowser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LHImageBrowser-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +90,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E7A8FFB179F6B58494A84BF02D53A2F /* Frameworks */ = {
+		9D169F37A4E29DAECDB75610A68ED2B7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525D06622D8179999359355511324F7B /* Foundation.framework in Frameworks */,
+				094368CFA03FD5E3814BB178516067B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +109,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		152A6360741875F5D6A33DECDE7E5ACF /* LHImageBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				0DEBBCD92D44967E92F9303465ED3692 /* LHBrowseImageManager.h */,
+				B5ED32A7675884907BD83E6F8E740228 /* LHBrowseImageManager.m */,
+				FAEF5D4E3E5982441FD66600611818C4 /* LHBrowseImageView.h */,
+				FBFA4974CB7BEDEE6AEDBECAEF1F013F /* LHBrowseImageView.m */,
+				86789C5359B474611335CE85E0026D74 /* LHImageModel.h */,
+				31F0649ACD7C0E46CAAE406BB66D2CD2 /* LHImageModel.m */,
+				508E0C44739059221DDB55F7952345EF /* Pod */,
+				E6A88696AAF10D19F756EC654E93509B /* Support Files */,
+			);
+			name = LHImageBrowser;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		4772B047E9D4D9C709029DD9029C518B /* Pods-LHImageBrowser_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +141,16 @@
 			path = "Target Support Files/Pods-LHImageBrowser_Tests";
 			sourceTree = "<group>";
 		};
+		508E0C44739059221DDB55F7952345EF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DABDAEDBD49786F7DD950C9CB48602C4 /* LHImageBrowser.podspec */,
+				FAFBE49C7B193CDA8650D3B0B25D5C7C /* LICENSE */,
+				52337CAF9DB9B995C032B85690B2CC69 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		5278B62B8A9B75D84E03D90044059A37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,22 +161,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		69139D525E1293BE81A657CD71080098 /* Development Pods */ = {
+		638F1A54DE37C38573300E34C7024E04 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A954B4AB15E9F09B3B8387198C974C5D /* LHImageBrowser */,
+				152A6360741875F5D6A33DECDE7E5ACF /* LHImageBrowser */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		9010040F359FAAD12A70C066C5026127 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				141FC1AB7442290E70A537B737AA2B0C /* LHImageBrowser.podspec */,
-				D3BAED28ED07CEEE9FA23620E925FC88 /* LICENSE */,
-				D82AA67C518C2129A36B314866C4FE20 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A09FF1077A8867914A224D9BBF9A1254 /* Targets Support Files */ = {
@@ -169,17 +195,6 @@
 			path = "Target Support Files/Pods-LHImageBrowser_Example";
 			sourceTree = "<group>";
 		};
-		A954B4AB15E9F09B3B8387198C974C5D /* LHImageBrowser */ = {
-			isa = PBXGroup;
-			children = (
-				73CD28C9A66676E52212237DB9BA35B4 /* ReplaceMe.m */,
-				9010040F359FAAD12A70C066C5026127 /* Pod */,
-				C261971A4498C36F3802A95F29CC9809 /* Support Files */,
-			);
-			name = LHImageBrowser;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,25 +203,11 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C261971A4498C36F3802A95F29CC9809 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F82B74E9017FEAB2DA055980AEBFCFF5 /* LHImageBrowser.modulemap */,
-				ABA1B8BF36936D8E93F0A5DE2AE51FD9 /* LHImageBrowser.xcconfig */,
-				D3181E8980AD538D51089FFA715F371E /* LHImageBrowser-dummy.m */,
-				06591B413542FF1E1692B1C13BC627BE /* LHImageBrowser-Info.plist */,
-				2C417099715CC2D923BAC583C3B8FF30 /* LHImageBrowser-prefix.pch */,
-				C5CA077FEEC553CBC045A2F2D93C7EFF /* LHImageBrowser-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LHImageBrowser";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				69139D525E1293BE81A657CD71080098 /* Development Pods */,
+				638F1A54DE37C38573300E34C7024E04 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				5278B62B8A9B75D84E03D90044059A37 /* Products */,
 				A09FF1077A8867914A224D9BBF9A1254 /* Targets Support Files */,
@@ -221,14 +222,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E6A88696AAF10D19F756EC654E93509B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C404C531ECE3CD12179E1BE34B5E7E8E /* LHImageBrowser.modulemap */,
+				FB98EBC36C9B7A9139FCDDA778F7D106 /* LHImageBrowser.xcconfig */,
+				F712EE4E4B9F03D287000241492DF77E /* LHImageBrowser-dummy.m */,
+				FD9EA2393B5BF673E35C05BCBA699130 /* LHImageBrowser-Info.plist */,
+				446DDE570C09253D6228470516725786 /* LHImageBrowser-prefix.pch */,
+				B6981D1DB561010024C8E5E9B98480D1 /* LHImageBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LHImageBrowser";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B3C7ABAF427972EDA2E4063AE7C95CA7 /* Headers */ = {
+		35AAA878CA083796837E4F00D7EACCC8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3FE70BC5FFF7623435E6C2B436F1F72 /* LHImageBrowser-umbrella.h in Headers */,
+				70C39033B3DC49245486BDE43E4A0B36 /* LHBrowseImageManager.h in Headers */,
+				EAA168310999A29D0535F8B5D13EFB51 /* LHBrowseImageView.h in Headers */,
+				031B94B5495ABA0AEF6F94F08F3409C9 /* LHImageBrowser-umbrella.h in Headers */,
+				19934CF99C86ABE83979360AA1A2DE5F /* LHImageModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,12 +290,12 @@
 		};
 		7C23FDC6F34D100E3E2135BF6E558FF1 /* LHImageBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F35DCFB1B7B83D00810088C8A3FA4A /* Build configuration list for PBXNativeTarget "LHImageBrowser" */;
+			buildConfigurationList = 7B6BFBF44DE6F6BBD86A5AB2971EEF95 /* Build configuration list for PBXNativeTarget "LHImageBrowser" */;
 			buildPhases = (
-				B3C7ABAF427972EDA2E4063AE7C95CA7 /* Headers */,
-				7F8A6F4B511CA1F2AF3C8BE2FBD74C7A /* Sources */,
-				9E7A8FFB179F6B58494A84BF02D53A2F /* Frameworks */,
-				E587C030D3DF99D98AA6C5E0E6255A79 /* Resources */,
+				35AAA878CA083796837E4F00D7EACCC8 /* Headers */,
+				1D65BDA30444280928AEEB949D0ADC20 /* Sources */,
+				9D169F37A4E29DAECDB75610A68ED2B7 /* Frameworks */,
+				78553D6FDCD3634CB111FCD6FE5F535C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -344,7 +362,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E587C030D3DF99D98AA6C5E0E6255A79 /* Resources */ = {
+		78553D6FDCD3634CB111FCD6FE5F535C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -361,20 +379,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1D65BDA30444280928AEEB949D0ADC20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE394D3AAE3FA77A93D561FCC50FF1E7 /* LHBrowseImageManager.m in Sources */,
+				46132EBE55034F1B841F125E1D8F489F /* LHBrowseImageView.m in Sources */,
+				CB3D26A44E829ECE817DA08323291F28 /* LHImageBrowser-dummy.m in Sources */,
+				CF3FD0694150BE6A25C1EA2E944F964A /* LHImageModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36E81061698FDA0D3645FC4BC31D2972 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5E916DC161A262D828463CF7E95BD25 /* Pods-LHImageBrowser_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F8A6F4B511CA1F2AF3C8BE2FBD74C7A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				00AC4C1CC38EB9495BA51614BA60FDC5 /* LHImageBrowser-dummy.m in Sources */,
-				13F7BE5F0A22268A55367A59CD9CFC66 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,38 +451,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2240200397C57E395EB41A34934D0FE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABA1B8BF36936D8E93F0A5DE2AE51FD9 /* LHImageBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LHImageBrowser/LHImageBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser.modulemap";
-				PRODUCT_MODULE_NAME = LHImageBrowser;
-				PRODUCT_NAME = LHImageBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -627,6 +615,38 @@
 			};
 			name = Debug;
 		};
+		9F8A91701A19891CD30D58BD1C21AEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB98EBC36C9B7A9139FCDDA778F7D106 /* LHImageBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LHImageBrowser/LHImageBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser.modulemap";
+				PRODUCT_MODULE_NAME = LHImageBrowser;
+				PRODUCT_NAME = LHImageBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		ACF5A6DA9E997621EC11EBB1459FA87A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 96DBE562CC30D4D53C832F457A06ADFF /* Pods-LHImageBrowser_Example.debug.xcconfig */;
@@ -654,37 +674,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B546DDED7171FD6003DA0B298F905EC6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ABA1B8BF36936D8E93F0A5DE2AE51FD9 /* LHImageBrowser.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LHImageBrowser/LHImageBrowser-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser.modulemap";
-				PRODUCT_MODULE_NAME = LHImageBrowser;
-				PRODUCT_NAME = LHImageBrowser;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -725,6 +714,37 @@
 			};
 			name = Release;
 		};
+		CCB355C40A7148392F13479290AD8FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB98EBC36C9B7A9139FCDDA778F7D106 /* LHImageBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LHImageBrowser/LHImageBrowser-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LHImageBrowser/LHImageBrowser.modulemap";
+				PRODUCT_MODULE_NAME = LHImageBrowser;
+				PRODUCT_NAME = LHImageBrowser;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -737,20 +757,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7B6BFBF44DE6F6BBD86A5AB2971EEF95 /* Build configuration list for PBXNativeTarget "LHImageBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCB355C40A7148392F13479290AD8FB2 /* Debug */,
+				9F8A91701A19891CD30D58BD1C21AEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		95F9FCD1338EA3DAA5C65EA866DB2676 /* Build configuration list for PBXNativeTarget "Pods-LHImageBrowser_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACF5A6DA9E997621EC11EBB1459FA87A /* Debug */,
 				B998D6FA28AFA8A4288BD8E9578A3DCF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B1F35DCFB1B7B83D00810088C8A3FA4A /* Build configuration list for PBXNativeTarget "LHImageBrowser" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B546DDED7171FD6003DA0B298F905EC6 /* Debug */,
-				2240200397C57E395EB41A34934D0FE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
