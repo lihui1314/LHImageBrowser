@@ -235,7 +235,6 @@ isPhoneX = [UIApplication sharedApplication].windows.lastObject.safeAreaInsets.b
     }
     
     self.scrollView.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:fabs(bl)];
-//    NSLog(@"%f",point.y);
 }
 
 - (void)endMove:(LHBrowseImageView *)imv point:(CGPoint)point hidden:(BOOL)hidden {
