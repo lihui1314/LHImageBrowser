@@ -61,7 +61,7 @@
     
     CGPoint currentPs = [touch locationInView:self];
 
-    //当前的point 在主屏幕位置/
+    //当前的point 在主屏幕位置//
     CGPoint currentP = [touch locationInView:[self superview]];
 
     //以前的point
