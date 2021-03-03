@@ -190,11 +190,7 @@ isPhoneX = [UIApplication sharedApplication].windows.lastObject.safeAreaInsets.b
     
     LHBrowseImageModel *model = self.imageModelArray[self.currentIndex];
     model.scrollView.userInteractionEnabled = NO;
-//    model.scrollView.frame;
-//    NSLog(@"%f,%f",model.scrollView.contentSize.width,model.scrollView.contentSize.height);
-//    NSLog(@"%f,%f,%f,%f",self.scrollView.frame.origin.x,self.scrollView.frame.origin.y,self.scrollView.frame.size.width,self.scrollView.frame.size.height);
-//    NSLog(@"%f,%f,%f,%f",model.imv.frame.origin.x,model.imv.frame.origin.y, model.imv.frame.size.width,model.imv.frame.size.height);
-//    NSLog(@"%f,%f",model.scrollView.contentOffset.x,model.scrollView.contentOffset.y);
+
     CGRect frame = model.imv.frame;
     CGFloat topPadding = IPHONE_X ? 44 : 0;
     if (frame.size.width > model.frame.size.width) {
